@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+*{
+    box-sizing: border-box;
+}
+.icon_links,.nav_link,.title_link,.infrastructure_table a, .achievement_table a ,#main_content p a{
+    text-decoration: none;
+    color: black;
+}
+.nav_link:hover{
+    color: cadetblue;
+    box-shadow: 0px 1px cadetblue;
+    transition: 1s;
+}
+.title_link:hover,.icon_links:hover,.menu_logo:hover,.view_more a:hover{
+    color: cadetblue;
+    transition: 1s;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+}
+
+/* navigation link styling */
+
+.nav_list{
+    list-style: none;
+    display: inline-flex;
+    column-gap: 30px;
+    padding-right: 3em;
+    font-size: 15px;
+}
+.Head_name {
+    position: absolute;
+    top: 1em;
+    left: 3em;
+    font-size: 15px;
+}
+.bd_grid{
+    display: grid;
+}
+#nav-menu{
+    width: 100%;
+    text-align: right;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+.heading_container{
+    display: flex;
+    width: 100%;
+}
+.head_container {
+    display: block;
+    width: 100%;
+}
+.header_section{
+    padding-top: 45px;
+}
+.logo_container {
+    padding: 3em;
+}
+img.main_logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 400px 0px 400px 0px;
+}
+h1.main_heading {
+    font-size: -webkit-xxx-large; 
+}
+
+section.heading_section {
+    padding: 2em;
+    /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/gallery/IMG20220510103046.jpg);*/
+}
+.option_section{
+    display: grid;
+}
+.option_list{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+/* menu styling */
+
+section.Menu_icons {
+    padding: 3em;
+    display: grid;
+    justify-content: center;
+}
+.Menu_icons_container1 {
+    display: flex;
+    column-gap:3rem;
+    font-size: 5em;
+    justify-content: center;
+}
+.menu_icon {
+    text-align: center;
+    line-height: 1px;
+    width: 2em;
+    box-shadow: 1px 1px 5px cadetblue;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.menu_icon:hover{
+    box-shadow: 2px 2px 10px cadetblue;
+    
+}
+.menu_icon_title {
+    font-size: small;
+    padding: 2em;
+}
+.menu_logo{
+    width: 80px;
+    height: 80px;
+    color: black;
+    padding-top: .5em;
+}
+
+/* gallery styling */
+
+.gallery_section{
+    padding: 3.5em;
+}
+
+.gallery_container{
+    display: flex;
+    width: 100%;
+    column-gap:1em;
+    justify-content: center;
+}
+.gallery_img{
+    width: 13em;
+    height: 13em;
+    box-shadow: 0px 0px 5px dimgrey;
+}
+.gallery_img:hover{
+    width: 13.1em;
+    height: 13.1em;
+    box-shadow: .5px 0.5px 10px dimgrey;
+}
+
+.home_gallery_section{
+    padding-top: 4rem;
+}
+.home_gallery_container{
+    justify-content: center;
+    display: flex;
+    column-gap: 1rem;
+    line-height: 3rem;
+}
+.home_gallery_img{
+    width: 13em;
+    height: 13em;
+    box-shadow: 0px 0px 3px rgb(156, 156, 156);
+}
+.home_gallery_img:hover{
+    width: 13.1em;
+    height: 13.1em;
+    box-shadow: 0px 0px 6px dimgrey;
+    transition: .1s;
+}
+.view_more{
+    position: absolute;
+    right: 4%;
+    z-index: 1;
+}
+.view_more a{
+    color: black;
+}
+
+/* Infrastructure styling */
+
+.infrastructure_container {
+    justify-content: center;
+}
+.infrastructure_table {
+    border: 2px solid cadetblue;
+    border-radius: 1em;
+    width: 90%;
+}
+.bxs-file-pdf{
+    color: darkred;
+}
+
+.even_row{
+    background-color: cadetblue;
+}
+.odd_row{
+    background-color: #ffffff;
+}
+
+section#login,.Infrastructure_section {
+    padding: 3em;
+}
+
+/* achievement */
+
+.achievement_container {
+    justify-content: center;
+}
+.achievement_table {
+    border: 2px solid gold;
+    border-radius: 1em;
+    width: 90%;
+}
+.bxs-file-pdf{
+    color: darkred;
+}
+.even_row1{
+    background-color: gold;
+}
+.odd_row1{
+    background-color: #ffffff;
+}
+
+section#login,.achievement_section {
+    padding: 3em;
+}
+
+
+
+/* about styling */
+
+.About_section{
+    padding: 4rem;
+}
+.About_container{
+    justify-content: center;
+}
+
+/* Form styling */
+.form {
+    text-align: center;
+    line-height: 4em;
+}
+
+input.input,.textarea,select.selection_type{
+    width: 30em;
+    height: 4em;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+}
+
+.section_title{
+    text-align: center;
+    font-size: xx-large;
+}
+.input_button,button.header_button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+button.header_button:hover , .input_button:hover{
+    box-shadow: 0px 1px 10px cadetblue;
+    transition: 0.5s;
+    color: cadetblue;
+    background: white;
+    border: 1px solid cadetblue;
+}
+
+/* footer styling */
+footer{
+    background-color: cadetblue;
+    color: #ffffff; 
+    text-align: center;
+    box-sizing: border-box;
+    height: 10rem;
+}
+.footer_container {
+    height: 8rem;
+    padding-top: 1.5rem;
+}
+.footer_social{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    background: white;
+    margin: 0 10rem 0 10rem;
+    border-radius: 2rem;
+}
+.footer_icon{
+    color: cadetblue;
+    font-size: 20px;
+}
+ul li a i{
+    padding-top: 0.5rem;
+}
+.bxl-facebook:hover{
+    color: #4267B2;
+    transition:0.5s;
+}
+.bxl-youtube:hover{
+    color: #FF0000;
+    transition:0.5s;
+}
+.bxl-instagram:hover{
+    color: #e95950;
+    transition:0.5s;
+}
+.bxl-linkedin:hover{
+    color: #0072B1;
+    transition:0.5s;
+}
+.bxl-twitter:hover{
+    color: #00ACEE;
+    transition:0.5s;
+}
+
+/* student dashboard */
+
+#dashboardcontainer
+{
+    padding: 3em;
+    justify-content: center;
+}
+#main_content
+{
+    box-shadow: 1px 1px 5px cadetblue;
+    border-radius: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 1em;
+}
+
+/* profile */
+
+#profileContainer
+{
+    display: flex;
+    column-gap:10em;
+    justify-content: center;
+    padding: 5em;
+}
+.formcontainer {
+    box-shadow: 1px 1px 10px;
+    width: 500px;
+}
+
+/* Registration */
+.regform
+{
+    justify-content: center;
+}
+.regcontainer {
+    box-shadow: 1px 1px 10px;
+    width: 500px;
+    margin-left: 33%;
+}
