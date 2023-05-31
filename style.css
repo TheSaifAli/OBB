@@ -524,7 +524,6 @@ ul li a i{
     .nav_list li a:hover{
         background: none;
         color: white;
-        font-size: .8rem;
         padding-left: .5rem;
     }
     #nav-menu{
