@@ -284,6 +284,8 @@ footer{
     text-align: center;
     box-sizing: border-box;
     height: 10rem;
+    position:absolute;
+    bottom:0;
 }
 .footer_heading{
     padding-top: 20px;
