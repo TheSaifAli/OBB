@@ -24,9 +24,6 @@ formEl.addEventListener('submit',(event)=>{
     {
         alert("Please fill the credentials!");
     }
-    if(enrollValue == "admin" && passValue == "admin"){
-        window.location.href="student.html";
-    }
 }
 );
 
