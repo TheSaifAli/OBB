@@ -500,13 +500,15 @@ ul li a i{
      z-index: 50;
      flex-direction: column;
      transition: right 1s ease;
-     background:-webkit-radial-gradient(center, white,cadetblue);
+    background:cadetblue;
+     box-shadow: 0,0,10px rgba(0,0,0,.3);
      display: none;
+        font-size: 12px;
     }
     .closeMenu{
         display: block;
         position: absolute;
-        top: 20px;
+        top: 10px;
         right: 20px;
 
     }
